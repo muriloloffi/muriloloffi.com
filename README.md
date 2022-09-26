@@ -1,1 +1,1 @@
-## My personal landing page
+## My personal blog & landing page

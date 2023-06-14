@@ -4,19 +4,59 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie-edge">
-		<title>Murilo Loffi's homepage</title>
-		<link rel="stylesheet" href="css/style.css">
+		<title>Murilo Loffi's landing page</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="stylesheet" href="normalize.css">
 	</head>
-	<body>
-		<header></header>
-		<aside>
-			<a href="about">About</a>
-			<a href="contact">Contact</a>
-		</aside>
+	<style>
+		body {
+			font-family: 'Courier New', Courier, monospace;
+		}
+		body h1 {
+			font-size: 200%;
+		}
+		#landing-body {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+			align-items: stretch;
+		}
+		a {
+			margin-inline: .5vw;
+		}
+		p {
+			max-width: 600px;
+			text-align: justify;
+			margin-inline: 10vw;
+		}
+		section {
+			margin: 1vw 0vw 1vw 0vw;
+		}
+		footer {
+			margin: 1vw 0vw 1vw 0vw;
+		}
+	</style>
+	<body id="landing-body">
+		<header>
+			<h1 id="main-title">Murilo Loffi</h1>
+		</header>
 
 		<main>
-			<h1 id="main-title">Murilo Loffi's homepage</h1>
-
+			<section>
+				<p>
+					I am a dedicated Full-Stack Web Developer from Brazil with over two years of experience in B2B applications. Proficient in PHP (Symfony and Laravel), React, and Vue, I'm currently seeking a Full-Stack Software Engineering position to further utilize and expand my skills. A fluent Git user, I also have hands-on experience working with containerized services like Docker, relational databases such as Postgres and MySQL, and developing APIs. My technical toolkit also includes familiarity with Redis, GraphQL, and RabbitMQ. Known for my problem-solving skills, excellent interpersonal relationship, I am eager to bring my collaborative attitude and dedication to a dynamic team.
+				</p>
+			</section>
 		</main>
+
+		<footer>
+			<div id="my-links">
+				<a href="https://www.linkedin.com/in/mloffi/">LinkedIn</a>
+				<a href="https://github.com/muriloloffi">Github</a>
+			</div>
+		</footer>
 	</body>
 </html>

@@ -1,4 +1,7 @@
-.sidenav {
+@import url("reset.css");
+@import url("normalize.css");
+
+aside {
     height: 100%;
     width: 160px;
     position: fixed; 
@@ -10,7 +13,7 @@
     padding-top: 20px;
 }
 
-.sidenav a {
+aside a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -19,22 +22,25 @@
 }
 
 body {
-    background: grey;
+    background-color: gainsboro;
+    background-blend-mode: soft-light;
+    background-image: url("../pexels-sabrina-gelbart-249798.jpg");
     text-align: center;
-} 
+}
 
-.main {
-    /* margin-top: 100px; */
+main {
+    margin-top: 100px;
     margin-left: 160px; 
     padding: 0px 10px;
+}
+
+main h1 {
+    font-size: 5vw;
 }
   
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
-h1 {
-    font-size: 5vw;
+    main {margin-top: 50px;}
+    aside {padding-top: 15px;}
+    aside a {font-size: 18px;}
 }

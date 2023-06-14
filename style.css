@@ -1,0 +1,34 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+    font-size-adjust: initial;
+}
+body h1 {
+    font-size: 200%;
+    font-weight: 600;
+}
+#landing-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+a {
+    margin-inline: .5vw;
+}
+p {
+    max-width: 600px;
+    text-align: justify;
+    margin-inline: 5vw;
+    font-size: 90%;
+}
+section {
+    margin: 1vw 0vw 1vw 0vw;
+}
+footer {
+    margin: 1vw 0vw 1vw 0vw;
+}

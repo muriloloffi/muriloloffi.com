@@ -2,4 +2,8 @@
 
 [muriloloffi.github.io][def]
 
-[def]: muriloloffi.github.io
+### To-do:
+ - [ ] CV download button
+ - [ ] Blog
+
+[def]: http://muriloloffi.com

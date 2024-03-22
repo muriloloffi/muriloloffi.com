@@ -1,3 +1,17 @@
+# Developer README
+
+## React on pages blog - Development notes
+
+- Bootstrap NextJs and use [Edge runtime](https://github.com/cloudflare/next-on-pages/tree/main/packages/next-on-pages#2-configure-the-application-to-use-the-edge-runtime)
+
+  ```node
+  export const runtime = "edge";
+  ```
+
+-
+
+# Default Next.js Readme:
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

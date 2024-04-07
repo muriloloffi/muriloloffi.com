@@ -11,12 +11,17 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col w-full h-full grow items-center">
-        <div id="LinksList" className="flex grow max-h-96 text-center">
-          <div id="SocialLink" className="flex flex-col justify-around">
-            <a href="https://linkedin.com/in/muriloloffi">LinkedIn</a>
-            <a href="https://mastodon.social/@muriloloffi">Mastodon</a>
-            <a href="https://github.com/muriloloffi">Github</a>
-          </div>
+        <div
+          id="LinksList"
+          className="flex flex-col grow max-h-96 w-full justify-around items-center text-center"
+        >
+          <a href="https://linkedin.com/in/muriloloffi">
+            <div className="flex flex-row grow rounded-lg border-white">
+              LinkedIn
+            </div>
+          </a>
+          <a href="https://mastodon.social/@muriloloffi">Mastodon</a>
+          <a href="https://github.com/muriloloffi">Github</a>
         </div>
       </div>
     </main>
